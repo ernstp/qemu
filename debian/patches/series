@@ -2,3 +2,18 @@ use-fixed-data-path.patch
 ccid-card-passthru-fix-regression-in-realize.patch
 ahci-fix-PxCI-register-race.patch
 tcg-i386-Fix-dup_vec-in-non-AVX2-codepath.patch
+
+# ubuntu patches
+ubuntu/define-ubuntu-machine-types.patch
+ubuntu/lp-1761372-extend-ubuntu-machine-types-ppc-2.11.patch
+ubuntu/machine-type-hpb.patch
+ubuntu/expose-vmx_qemu64cpu.patch
+ubuntu/enable-svm-by-default.patch
+ubuntu/guest-agent-freeze-hook-skip-dpkg-artifacts.patch
+ubuntu/pre-bionic-256k-ipxe-efi-roms.patch
+ubuntu/CVE-2018-3639/0001-i386-define-the-ssbd-CPUID-feature-bit-CVE-2018-3639.patch
+ubuntu/CVE-2018-3639/0002-i386-define-the-AMD-virt-ssbd-CPUID-feature-bit-CVE-.patch
+ubuntu/CVE-2018-3639/0003-i386-Define-the-Virt-SSBD-MSR-and-handling-of-it-CVE.patch
+ubuntu/CVE-2018-11806-slirp-correct-size.patch
+ubuntu/lp-1781526-powerpc64-align-memory-THP.patch
+ubuntu/lp-1780773-s390x-cpumodels-add-z14-Model-ZR1.patch
